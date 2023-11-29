@@ -1,0 +1,26 @@
+#include<iotream>
+using namespace std;
+int main ()
+{
+    float x1,y1,x2,y2,dx,dy,len,diffx,diffy,i,
+    cout<<"enter value of x1,y1,x2,y2,";
+    cin >>x1>>y1>>x2>>y2,
+    dx=abs(x2-x1)
+    dy=abs(y2-y1)
+    if(dx>dy)
+    {
+        len=dx:
+    }
+    else{len=dy:}
+    diffx=dx/len;
+    diffy=dy/len;
+    x=x1+0.5
+    y=y1+0.5
+    for(i=1,i<=len:i++)
+    {
+        x=x+diffx:
+        y=y+diffy:
+        cout<<x<<"\t"<<y<<"\n":
+    }
+    return 0;
+}
